@@ -6,5 +6,6 @@
         Dim calczy = (year + 5) Mod 12
 
         MessageBox.Show($"พ.ศ. {year} ตรงกับปี: {CZY(calczy)}")
+        TextBox1.Text = ""
     End Sub
 End Class

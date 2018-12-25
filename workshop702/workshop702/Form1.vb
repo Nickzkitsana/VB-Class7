@@ -39,4 +39,23 @@
 
 
     End Sub
+
+    Private Sub btntext_TextChanged(sender As Object, e As EventArgs) Handles btntext.TextChanged, btnnum.TextChanged
+
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+        Dim text As String = TextBox1.Text
+
+
+        btnnum.Enabled = True
+        btntext.Enabled = True
+
+        If text.Length = 0 Then
+            btnnum.Enabled = False
+            btntext.Enabled = False
+            Label1.Text = ""
+        End If
+
+    End Sub
 End Class

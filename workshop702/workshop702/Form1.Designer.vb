@@ -48,6 +48,7 @@ Partial Class Form1
         '
         'btnnum
         '
+        Me.btnnum.Enabled = False
         Me.btnnum.Location = New System.Drawing.Point(35, 81)
         Me.btnnum.Name = "btnnum"
         Me.btnnum.Size = New System.Drawing.Size(187, 32)
@@ -57,6 +58,7 @@ Partial Class Form1
         '
         'btntext
         '
+        Me.btntext.Enabled = False
         Me.btntext.Location = New System.Drawing.Point(244, 81)
         Me.btntext.Name = "btntext"
         Me.btntext.Size = New System.Drawing.Size(187, 32)

@@ -6,6 +6,10 @@
         Dim vowel As String = ""
         Dim alphabet As String = ""
 
+        If Tword.Length = 0 Then
+            MessageBox.Show("กรุณาป้อนข้อมูล")
+        End If
+
         For i = 0 To (word.Length - 1)
             Dim check As Boolean = True
             For Each item In listVowel

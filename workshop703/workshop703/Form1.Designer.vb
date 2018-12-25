@@ -90,7 +90,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Vowel and Alphabet"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
